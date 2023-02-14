@@ -1,11 +1,6 @@
 # Bet Miguel Mobile App README
 
 This app was created using `react-native init`.
-The directory structure is inspired by
-[this article](https://medium.com/the-react-native-log/organizing-a-react-native-project-9514dfadaa0).
-The project was converted to TypeScript following [this guide](https://github.com/Microsoft/TypeScript-React-Native-Starter).
-
-To combine redux with TypeScript, the setup followed https://github.com/piotrwitek/react-redux-typescript-guide.
 
 ## Quick start
 
@@ -55,35 +50,3 @@ On Android, make sure that you _start Android Studio and the emulator_ before yo
 ### Unit tests
 
 The unit tests are run using the `npm test` command.
-
-### End-to-End tests
-
-We don't have any e2e tests, yet.
-
-## Directory layout
-
-## Test philosophy
-
-For components, use snapshot tests for the bulk of your tests and work with a _test last_ approach, i.e. once you are
-happy with your component's look, create a snapshot test.
-
-For everything else, use a _test first_ approach, especially for reducers, action creators, selectors and any kind of
-service class.
-
-More details will follow as we go.
-
-## Styleguide
-
-Most of the styleguie is informed by the [Airbnb TSLint config](https://www.npmjs.com/package/tslint-config-airbnb).
-
-The formatting rules are enforced by [prettier](https://prettier.io). It is safe to format the code on every save
-operation. Follow [this guide](https://prettier.io/docs/en/webstorm.html) to set up the file watcher.
-
-## Deployment
-
-## Configuring your IDE
-
-### Jetbrains
-
-Make sure you have the _Prettier_ plugin installed in your Jetbrains IDE.
-You can then use Cmd+Option+Shift+P to format the file according to prettier rules.
