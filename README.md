@@ -50,3 +50,6 @@ On Android, make sure that you _start Android Studio and the emulator_ before yo
 ### Unit tests
 
 The unit tests are run using the `npm test` command.
+
+
+
